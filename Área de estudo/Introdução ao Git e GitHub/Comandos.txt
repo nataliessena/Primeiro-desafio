@@ -1,0 +1,33 @@
+      Prática no Git
+Inicio
+
+Crie uma pasta para praticar- no meu caso será a pasta workspace e criei o repositorio "hinario"
+
+comandos:
+
+mkdir:  criar pasta
+cd:  entrar numa pasta
+ls: lista tudo oq ue tem dentro da pasta 
+git init: inicia um repositorio
+ls -a: lista as pastas ocultas
+cd .. : volta um nível
+mv: move arquivos
+echo >: criar pasta
+
+ps: primeira vez usando o git, você tem que fazer uma configuração inicial
+
+configuração inicial:
+git config --global user.email "email usado no github"
+git config --global user.name "nickname usado no github"
+
+
+commit:
+git add *: adiciona o commit
+git commit -m "descrição" : o commit feita tem uma descrição
+git status: verifica o estado dos commit
+ 
+GitHub
+git remote add origin (adiciona o link do repositorio): para adcionar ao remoto
+git clone (link): mesma função anterior
+git push origin master
+git push origin main

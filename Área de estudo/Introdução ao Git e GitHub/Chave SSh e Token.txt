@@ -1,0 +1,58 @@
+           Inicio - Processo no Windows
+
+1º Criar uma conta no GitHub
+
+-> Acesse o link < https://github.com/ >
+-> Clicar " Sign Up"
+-> Preencher os dados para criar a conta
+
+2º Criar a chave SSH
+
+-> Clicar no icone da foto e acessar o "Settings"
+-> Clicar em "SSH and GPG Keys"
+-> Clicar "New SSH Key"
+-> irá abrir uma pagina contendo um campo com o  nome "Title" e outro campo em "Key", nesse momento vamos deixar a pagina abeerta e ir no PC
+
+2.1 Criando a Chave no Git Bash
+
+-> acesse o Git Bash pela barra de pesquisa do windows
+-> Duplo clique no App para abrir
+
+2.2 Comandos
+
+-> Escrever o comando a seguir: ssh-keygen -t -C ed25519 (seu email) 
+ps: não colocar os parentes, só o email e em seguida clicar em enter no teclado
+->Enter
+->Enter
+ps: a senha será gerada que será igual a "ed25519"
+ps2: será gerada duas senhas uma publica e outra privada a publica terá .pub no final da senha.
+-> entrar na pasta .ssh/ usando o comando: cd, enter
+->comando: ls ( irá listar todos os arquivos e pasta dentro da pastar ssh), enter
+-> comando: cat id_ed25519.pub (enter)
+ps: será gerado a chave nesse momento e copie a chave que terá varios caracteres e vá no site do github coloque a chave na descrição "Key" nomei a descrição do "Title" e clique em "Add SSH key" 
+Será criado a SSH
+volte no Git
+
+2.3 Iniciar o SSH 
+
+-> comando: eval $(ssh-aget -s) 
+->enter
+->comando: ssh-add id_ed25519
+-> enter(duas vezes)
+
+ps: processo finalizado
+
+3º Token
+
+-> acesse o github
+-> Clicar no icone da foto e acessar o "Settings"
+-> Clicar em "Developer settings"
+-> Clicar em "Personal access tokens
+-> Clicar em "Tokens"
+-> Clicar em Generate new token
+-> colocar um nome no token
+->Clicar na opção "Repo"
+-> Clicar "Generate token
+ps: copie o token e salve em um lugar seguro pois não tem como recuperar depois.
+
+processo finalizado.

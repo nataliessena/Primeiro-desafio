@@ -1,0 +1,11 @@
+           Inicio
+
+Primeiro é necessario que baixe o Git no PC e o instale.
+
+ °Para baixar o Git no PC:
+->Acessar o link: < https://git-scm.com/ > 
+->No site localizar " Download for Windows" e clicar, será direcionado para a pagina de download
+-> Clicar " Click here to download", e iniciará o download 
+-> Clique no download e inicie a instalação
+-> com o app instalado pode usar
+
