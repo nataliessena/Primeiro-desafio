@@ -1,0 +1,10 @@
+     ínicio
+
+*Acessar o site do VSCode e clicar na opção windowns e vai iniciar o download automaticamente.
+
+*Fazer a instalação.
+
+    Conhecendo o app
+
+ctrl+P= buscar
+ctrl+f=localizar e substituir
